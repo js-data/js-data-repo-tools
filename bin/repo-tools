@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+var repoTools = require('../src/cli')
+
+repoTools.parse(process.argv)
+
+if (!repoTools.args.length) {
+  repoTools.help()
+}
