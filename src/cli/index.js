@@ -84,4 +84,18 @@ repoTools
     }
   })
 
+repoTools
+  .command('write-version [files...]')
+  .description('Add version info to specified files.')
+  .option('-j, --package [package]', 'Path to package.json file')
+  .action(function (files, cmd) {
+    try {
+      api.writeVersion.execute({
+        files: files
+      })
+    } catch (err) {
+      handleError(err)
+    }
+  })
+
 module.exports = repoTools

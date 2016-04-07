@@ -1,9 +1,8 @@
-var fs = require('fs')
 var path = require('path')
 var execSync = require('child_process').execSync
 var tty = process.platform === 'win32' ? 'CON' : '/dev/tty'
 var _ = require('lodash')
-var fsOpts = { encoding: 'utf8' }
+var utils = require('../utils')
 
 /**
  * @name changelog.normalizeOpts
@@ -20,17 +19,6 @@ function normalizeOpts (opts) {
 }
 
 /**
- * @name changelog.getFile
- * @method
- * @param {string} filePath Path to file.
- */
-function getFile (filePath) {
-  if (fs.existsSync(filePath)) {
-    return fs.readFileSync(filePath, fsOpts)
-  }
-}
-
-/**
  * @name changelog.execute
  * @method
  * @param {Object} [opts] Configuration options.
@@ -41,8 +29,8 @@ function getFile (filePath) {
 function execute (opts) {
   opts = normalizeOpts(opts)
 
-  var pkg = getFile(opts.pkgPath)
-  var changelog = getFile(opts.changelogPath)
+  var pkg = utils.getFile(opts.pkgPath)
+  var changelog = utils.getFile(opts.changelogPath)
 
   if (!pkg) {
     throw new Error(opts.pkgPath, 'file not found or unreadable!')
@@ -60,5 +48,4 @@ function execute (opts) {
 }
 
 exports.normalizeOpts = normalizeOpts
-exports.getFile = getFile
 exports.execute = execute

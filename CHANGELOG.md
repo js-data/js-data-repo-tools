@@ -1,3 +1,7 @@
+##### 0.3.0 - 07 April 2016
+
+Added write-version command
+
 ##### 0.2.0 - 06 March 2016
 
 Added dependency on `estraverse-fb` until a bug in `eslint` is fixed.

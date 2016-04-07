@@ -2,7 +2,7 @@ var standard = require('standard')
 var Promise = require('bluebird')
 
 /**
- * @name updates.normalizeOpts
+ * @name lint.normalizeOpts
  * @method
  * @param {Object} [opts] Configuration options.
  */
@@ -16,7 +16,7 @@ function normalizeOpts (opts) {
 }
 
 /**
- * @name changelog.execute
+ * @name lint.execute
  * @method
  */
 function execute (opts) {
