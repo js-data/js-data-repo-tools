@@ -1,3 +1,7 @@
+##### 0.4.0 - 28 April 2016
+
+Upgraded dependencies
+
 ##### 0.3.0 - 07 April 2016
 
 Added write-version command

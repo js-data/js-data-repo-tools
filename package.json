@@ -1,7 +1,7 @@
 {
   "name": "js-data-repo-tools",
   "description": "Common utility scripts used by js-data repositories.",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "homepage": "https://github.com/js-data/js-data-repo-tools",
   "repository": {
     "type": "git",
@@ -28,11 +28,11 @@
     "release": "npm test"
   },
   "dependencies": {
-    "babel-eslint": "6.0.2",
-    "bluebird": "3.3.4",
+    "babel-eslint": "6.0.4",
+    "bluebird": "3.3.5",
     "commander": "2.9.0",
-    "lodash": "4.8.2",
-    "npm-check-updates": "2.6.1",
+    "lodash": "4.11.1",
+    "npm-check-updates": "2.6.3",
     "standard": "6.0.8"
   }
 }
