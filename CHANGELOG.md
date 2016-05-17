@@ -1,3 +1,7 @@
+##### 0.5.2 - 16 May 2016
+
+- Moved more common dependencies to js-data-repo-tools
+
 ##### 0.5.1 - 10 May 2016
 
 - Upgraded dependencies
