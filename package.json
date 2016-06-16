@@ -1,7 +1,7 @@
 {
   "name": "js-data-repo-tools",
   "description": "Common utility scripts used by js-data repositories.",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "homepage": "https://github.com/js-data/js-data-repo-tools",
   "repository": {
     "type": "git",
@@ -43,16 +43,16 @@
     "bluebird": "^3.4.0",
     "chai": "^3.5.0",
     "commander": "^2.9.0",
-    "ink-docstrap": "git+https://github.com/js-data/docstrap.git#f73a73745607059cd387b9dcea8002c11cf8add2",
+    "ink-docstrap": "git+https://github.com/js-data/docstrap.git#cfbe45fa313e1628c493076d5e15d2b855dfbf2c",
     "jsdoc": "^3.4.0",
     "lodash": "^4.13.1",
     "mocha": "^2.5.3",
     "npm-check-updates": "^2.6.7",
-    "nyc": "^6.4.4",
+    "nyc": "^6.6.1",
     "sinon": "^1.17.4",
     "source-map-support": "^0.4.0",
     "standard": "^7.1.2",
-    "rollup": "^0.30.0",
+    "rollup": "^0.31.2",
     "rollup-plugin-babel": "^2.5.1",
     "watch": "^0.18.0"
   }
