@@ -1,3 +1,7 @@
+##### 0.5.5 - 02 July 2016
+
+- Upgraded dependencies
+
 ##### 0.5.4 - 15 June 2016
 
 - Upgraded dependencies
