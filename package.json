@@ -1,7 +1,7 @@
 {
   "name": "js-data-repo-tools",
   "description": "Common utility scripts used by js-data repositories.",
-  "version": "0.5.6",
+  "version": "0.5.7",
   "homepage": "https://github.com/js-data/js-data-repo-tools",
   "repository": {
     "type": "git",
