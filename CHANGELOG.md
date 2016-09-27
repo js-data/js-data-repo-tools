@@ -1,3 +1,9 @@
+##### 0.5.7 - 09 September 2016
+
+- Upgraded dependencies
+- Removed dependency `babel-preset-es2015-rollup`
+- Added rollup example config to resolve [babel issue #71](https://github.com/rollup/rollup-plugin-babel/issues/71)
+
 ##### 0.5.6 - 10 August 2016
 
 - Upgraded dependencies
