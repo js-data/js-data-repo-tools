@@ -6,8 +6,18 @@ export default {
   plugins: [
     babel({
       babelrc: false,
-      presets: [['es2015', { "modules": false }]], // note the nested arrays
-      exclude: 'node_modules/**'
+      exclude: 'node_modules/**',
+      plugins: [
+        'babel-plugin-external-helpers'
+      ],
+      presets: [
+        [
+          'es2015',
+          {
+            modules: false
+          }
+        ]
+      ]
     })
   ]
 }
