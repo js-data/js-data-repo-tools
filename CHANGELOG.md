@@ -1,3 +1,9 @@
+##### 1.0.0 - 18 January 2017
+
+- Upgraded dependencies
+- Removed some extra dependencies. Other js-data repos should not rely on
+  packages that will be installed alongside js-data-repo-tools.
+
 ##### 0.5.9 - 07 November 2016
 
 - Upgraded dependencies

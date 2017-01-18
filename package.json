@@ -1,7 +1,7 @@
 {
   "name": "js-data-repo-tools",
   "description": "Common utility scripts used by js-data repositories.",
-  "version": "0.5.9",
+  "version": "1.0.0",
   "homepage": "https://github.com/js-data/js-data-repo-tools",
   "repository": {
     "type": "git",
@@ -15,7 +15,8 @@
     "src/",
     "templates/",
     "AUTHORS",
-    "CONTRIBUTORS"
+    "CONTRIBUTORS",
+    "yarn.lock"
   ],
   "bin": {
     "repo-tools": "./bin/repo-tools"
@@ -30,31 +31,24 @@
     "parser": "babel-eslint"
   },
   "scripts": {
-    "lint": "node . lint",
+    "lint": "standard 'src/**/*.js' 'examples/**/*.js' 'bin/**/*.js'",
     "rollup": "rollup examples/rollup/index.js -c examples/rollup/rollup.config.js -o examples/rollup/build/rollup-example.js -m examples/rollup/build/rollup-example.js.map -f umd",
     "test": "npm run lint && node . changelog && node . updates && node . authors",
     "release": "npm test"
   },
   "dependencies": {
-    "babel-core": "^6.18.2",
-    "babel-eslint": "^6.1.2",
-    "babel-plugin-external-helpers": "^6.18.0",
-    "babel-polyfill": "^6.16.0",
-    "babel-preset-es2015": "^6.18.0",
-    "bluebird": "^3.4.6",
-    "chai": "^3.5.0",
-    "commander": "^2.9.0",
-    "ink-docstrap": "git+https://github.com/js-data/docstrap.git#cfbe45fa313e1628c493076d5e15d2b855dfbf2c",
-    "jsdoc": "^3.4.2",
-    "lodash": "^4.16.6",
-    "mocha": "^3.1.2",
-    "npm-check-updates": "^2.8.6",
-    "nyc": "^8.4.0",
-    "sinon": "^1.17.6",
-    "source-map-support": "^0.4.6",
-    "standard": "^8.5.0",
-    "rollup": "^0.36.3",
-    "rollup-plugin-babel": "^2.6.1",
-    "watch": "^1.0.1"
+    "babel-eslint": "7.1.1",
+    "commander": "2.9.0",
+    "lodash": "4.17.4",
+    "npm-check-updates": "2.8.9",
+    "standard": "8.6.0"
+  },
+  "devDependencies": {
+    "babel-core": "6.21.0",
+    "babel-plugin-external-helpers": "6.18.0",
+    "babel-preset-es2015": "6.18.0",
+    "commander": "2.9.0",
+    "rollup": "0.41.4",
+    "rollup-plugin-babel": "2.7.1"
   }
 }

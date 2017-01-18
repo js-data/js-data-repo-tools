@@ -54,7 +54,7 @@ repo-tools lint
 
 The MIT License (MIT)
 
-Copyright (c) 2016 js-data-repo-tools project authors
+Copyright (c) 2017 js-data-repo-tools project authors
 
 * [LICENSE](https://github.com/js-data/js-data-repo-tools/blob/master/LICENSE)
 * [AUTHORS](https://github.com/js-data/js-data-repo-tools/blob/master/AUTHORS)

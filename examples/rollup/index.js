@@ -1,6 +1,6 @@
 // can rollup process this?
 const foo = {
-  bar: "baz"
+  bar: 'baz'
 }
 
-export const {bar} = foo
+export const { bar } = foo

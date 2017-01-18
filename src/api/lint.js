@@ -1,5 +1,4 @@
 var standard = require('standard')
-var Promise = require('bluebird')
 
 /**
  * @name lint.normalizeOpts

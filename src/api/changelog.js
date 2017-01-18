@@ -1,7 +1,4 @@
 var path = require('path')
-var execSync = require('child_process').execSync
-var tty = process.platform === 'win32' ? 'CON' : '/dev/tty'
-var _ = require('lodash')
 var utils = require('../utils')
 
 /**

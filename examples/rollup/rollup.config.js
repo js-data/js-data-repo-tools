@@ -1,7 +1,7 @@
 import babel from 'rollup-plugin-babel'
 
 export default {
-  moduleName: 'ReopTools',
+  moduleName: 'RepoTools',
   moduleId: 'repo-tools',
   plugins: [
     babel({

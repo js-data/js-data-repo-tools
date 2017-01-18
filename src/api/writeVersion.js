@@ -1,4 +1,3 @@
-var Promise = require('bluebird')
 var utils = require('../utils')
 var path = require('path')
 
@@ -33,7 +32,6 @@ function makeVersion (pkg) {
   obj += '  minor: ' + parseInt(numbers[1], 10) + ',\n'
   obj += '  patch: ' + parseInt(numbers[2], 10) + '\n'
   obj += '}'
-
 
   return obj
 }
