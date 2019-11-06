@@ -39,7 +39,7 @@
   "dependencies": {
     "babel-eslint": "7.1.1",
     "commander": "2.9.0",
-    "lodash": "4.17.4",
+    "lodash": "4.17.13",
     "npm-check-updates": "2.8.9",
     "standard": "8.6.0"
   },
