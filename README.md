@@ -1,6 +1,6 @@
 <img src="https://raw.githubusercontent.com/js-data/js-data/master/js-data.png" alt="js-data logo" title="js-data" align="right" width="96" height="96" />
 
-# js-data-repo-tools
+# @js-data/repo-tools
 
 [![Slack Status][sl_b]][sl_l]
 [![npm version][npm_b]][npm_l]
@@ -20,7 +20,7 @@ see this tool in action.
 * [License](#license)
 
 ## Quick Start
-Install into a repository: `npm i --save-dev js-data-repo-tools`
+Install into a repository: `npm i --save-dev @js-data/repo-tools`
 
 And update your scripts in `package.json`:
 
@@ -30,7 +30,7 @@ And update your scripts in `package.json`:
 }
 ```
 
-Or install globally: `npm i -g js-data-repo-tools`
+Or install globally: `npm i -g @js-data/repo-tools`
 
 And use on the commandline:
 
@@ -54,7 +54,7 @@ repo-tools lint
 
 The MIT License (MIT)
 
-Copyright (c) 2017 js-data-repo-tools project authors
+Copyright (c) 2020 @js-data/repo-tools project authors
 
 * [LICENSE](https://github.com/js-data/js-data-repo-tools/blob/master/LICENSE)
 * [AUTHORS](https://github.com/js-data/js-data-repo-tools/blob/master/AUTHORS)

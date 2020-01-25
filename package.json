@@ -1,5 +1,5 @@
 {
-  "name": "js-data-repo-tools",
+  "name": "@js-data/repo-tools",
   "description": "Common utility scripts used by js-data repositories.",
   "version": "1.0.1",
   "homepage": "https://github.com/js-data/js-data-repo-tools",
