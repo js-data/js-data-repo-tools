@@ -4,6 +4,6 @@ var repoTools = require('../src/cli')
 
 repoTools.parse(process.argv)
 
-if (!repoTools.args.length) {
+if (repoTools.rawArgs.length < 3) {
   repoTools.help()
 }
