@@ -1,3 +1,11 @@
+##### 1.0.1 - 24 January 2020
+
+- Upgraded dependencies
+
+BREAKING CHANGE:
+
+Moved published package to new namespace @js-data/repo-tools 
+
 ##### 1.0.0 - 18 January 2017
 
 - Upgraded dependencies
